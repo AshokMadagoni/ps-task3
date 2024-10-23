@@ -29,7 +29,7 @@ for(i=0;i<arr.length;i++){
         seclar=largest //0 2 6 30  117
         largest=arr[i]; //2 6 30 117 120
     }
-    else if(arr[i] > seclar && arr[i] != largest){ //113 >30 ?  113!=30
+    else if(arr[i] > seclar){ //113 >30 ?  113!=30
         seclar= arr[i]; //113
     }
 }
