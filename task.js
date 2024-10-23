@@ -25,12 +25,12 @@ var arr=[2,6,30,117,9,1,7,3,8,20,113,120,5,4,25,10,100,119]
 largest=0
 seclar=0
 for(i=0;i<arr.length;i++){
-    if(largest<arr[i]){ //0 2 6 30 117 120
-        seclar=largest //0 2 6 30  117
-        largest=arr[i]; //2 6 30 117 120
+    if(largest<arr[i]){ 
+        seclar=largest 
+        largest=arr[i];
     }
-    else if(arr[i] > seclar){ //113 >30 ?  113!=30
-        seclar= arr[i]; //113
+    else if(arr[i] > seclar){ 
+        seclar= arr[i];
     }
 }
 console.log("larghest:",largest);
